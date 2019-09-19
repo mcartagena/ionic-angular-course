@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { PersonsComponent } from './persons/persons.component';
 import { PersonInputComponent } from './person-input/person-input.component';
 import { from } from 'rxjs';
+import { AppRoutingModule } from './app-routing/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { from } from 'rxjs';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
